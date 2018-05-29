@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="goal_pub" pkg="humanoid_chassis" type="goal_pub.py" args="-d $(find humanoid_chassis)/scripts/goal_pub.py" />
+</launch>
